@@ -1,9 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
-// import "./index.css";
+import "./index.css";
 import App from "./App";
-import * as serviceWorker from "./serviceWorker";
+// import * as serviceWorker from "./serviceWorker";
+// import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
     <BrowserRouter>
@@ -12,4 +13,10 @@ ReactDOM.render(
     document.getElementById("root")
 );
 
-serviceWorker.unregister();
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+    <React.StrictMode>
+        <App/>
+    </React.StrictMode>
+);
+// serviceWorker.unregister();
