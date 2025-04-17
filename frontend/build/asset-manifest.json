@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/silentmegh/controlled-works.git/static/css/main.6eb64113.css",
+    "main.js": "/silentmegh/controlled-works.git/static/js/main.e8503954.js",
+    "index.html": "/silentmegh/controlled-works.git/index.html",
+    "main.6eb64113.css.map": "/silentmegh/controlled-works.git/static/css/main.6eb64113.css.map",
+    "main.e8503954.js.map": "/silentmegh/controlled-works.git/static/js/main.e8503954.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6eb64113.css",
+    "static/js/main.e8503954.js"
+  ]
+}
